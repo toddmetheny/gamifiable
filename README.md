@@ -29,6 +29,8 @@ Then, before running rake db:migrate, go into the migration and add a default va
     add_column :users, :score, :integer, default: 0
   end
 
+The next thing you're going to want to do is update your models. Add gamifiable_increment to any model that you're going to track.
+
 ## Contributing
 
 1. Fork it ( https://github.com/[my-github-username]/gamifiable/fork )
